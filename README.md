@@ -1,4 +1,4 @@
-# Currency-Unions
+# Currency Unions
 Here is a series of programs to create a dataset of bilateral currency unions between 235 countries over 76 years, from 1948 to 2023.
 
 - First version: 4th March 2009
