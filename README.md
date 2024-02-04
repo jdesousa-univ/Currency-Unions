@@ -1,5 +1,5 @@
 # Currency-Unions
-Here is a series of programs to create a dataset of bilateral monetary unions between 235 countries over 76 years, from 1948 to 2023.
+Here is a series of programs to create a dataset of bilateral currency unions between 235 countries over 76 years, from 1948 to 2023.
 
 - First version: 4th March 2009
 - This version: 4th February 2024
@@ -14,7 +14,14 @@ You'll be joining a group of academics using this dataset: [take a look](https:/
 ## Software
 I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
 
-I also provide the final dataset in two formats 
+I also provide the final dataset in two formats: `comcur_2024.dta` and `comcur_2024.txt`
+
+Note: you can open the Stata dataset `.dta` with `R` by using the following code:
+```
+install.packages("foreign")
+library(foreign)
+comcurdata <- read.dta("data/comcur_2024.dta")
+```
 
 ## Acknowledgements
 I am indebted to 
