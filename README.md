@@ -7,7 +7,9 @@ Here is a series of programs to create a dataset of bilateral currency unions be
 
 If you use these programs and dataset in your work, please cite: 
 
-> De Sousa, Jose (2012), [The currency union effect on trade is decreasing over time](https://www.sciencedirect.com/science/article/abs/pii/S0165176512003941), _Economics Letters_ 117(3), pp. 917-920. The ungated version is [here](https://drive.google.com/file/d/0B0CvAsG5eVPJb1c4Q3dKeHBZTDg/view?hl=en&pli=1&resourcekey=0-YBYzn1wQ-Mcp2heqGFDgjA).
+> De Sousa, Jose (2012), [The currency union effect on trade is decreasing over time](https://www.sciencedirect.com/science/article/abs/pii/S0165176512003941), _Economics Letters_ 117(3), pp. 917-920. 
+
+The ungated version is [here](https://drive.google.com/file/d/0B0CvAsG5eVPJb1c4Q3dKeHBZTDg/view?hl=en&pli=1&resourcekey=0-YBYzn1wQ-Mcp2heqGFDgjA). 
 
 You'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!                         
 
