@@ -1,5 +1,5 @@
 # Currency-Unions
-Here is a series of programs to create a bilateral currency union dataset.
+Here is a series of programs to create a dataset of bilateral monetary unions between 235 countries over 76 years, from 1948 to 2023.
 
 - First version: 4th March 2009
 - This version: 4th February 2024
@@ -12,7 +12,9 @@ De Sousa, Jose (2012), [The currency union effect on trade is decreasing over ti
 You'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!                         
 
 ## Software
-I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do`, for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
+I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
+
+I also provide the final dataset in two formats 
 
 ## Acknowledgements
 I am indebted to 
