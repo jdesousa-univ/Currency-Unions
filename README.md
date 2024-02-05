@@ -13,6 +13,12 @@ The ungated version is [here](https://drive.google.com/file/d/0B0CvAsG5eVPJb1c4Q
 
 By citing this work you'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!                         
 
+## Notes
+**Q:  Why do we use the term "country"?**
+
+**A:** The term 'country' is used for convenience, but it includes areas that may not be considered countries in the traditional sense of the word : 
+> "Colonies (e.g., Bermuda), territories (e.g., Guam), overseas departments (e.g., Guadeloupe), countries that gained their independence (e.g., Guinea-Bissau), and so forth are all included" (GR, 2002, 1128). 
+
 ## Software
 I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
 
