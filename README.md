@@ -17,7 +17,11 @@ By citing this work you'll be joining a group of academics using this dataset: [
 **Q:  Why do we use the term "country"?**
 
 **A:** The term 'country' is used for convenience, but it includes areas that may not be considered countries in the traditional sense of the word : 
-> "Colonies (e.g., Bermuda), territories (e.g., Guam), overseas departments (e.g., Guadeloupe), countries that gained their independence (e.g., Guinea-Bissau), and so forth are all included" (GR, 2002, 1128). 
+> "Colonies (e.g., Bermuda), territories (e.g., Guam), overseas departments (e.g., Guadeloupe), countries that gained their independence (e.g., Guinea-Bissau), and so forth are all included" (GR, 2002, 1128).
+
+**Q: What is the ISO3 alphanumeric code of countries?**
+
+**A:**  The International Organization for Standardization (ISO) defines three-letter country codes. [Here](https://en.wikipedia.org/wiki/ISO_3166-1) is the current list. Additionally, I introduced two codes: "BLX" to collectively represent Belgium and Luxembourg and "XKK" to represent Kosovo (see https://en.wikipedia.org/wiki/XK_(user_assigned_code)).
 
 ## Software
 I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
