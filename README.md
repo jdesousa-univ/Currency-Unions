@@ -20,9 +20,9 @@ I also provide the final dataset in two formats: `comcur_2024.dta` and `comcur_2
 
 Note: you can open the Stata dataset `.dta` with `R` by using the following code:
 ```
-install.packages("foreign")
-library(foreign)
-comcurdata <- read.dta("data/comcur_2024.dta")
+install.packages("haven")
+library(haven)
+comcurdata <- read_dta("data/comcur_2024.dta")
 ```
 
 ## Acknowledgements
