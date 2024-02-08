@@ -27,7 +27,7 @@ By citing this work you'll be joining a group of academics using this dataset: [
 
 **A:**  The International Organization for Standardization (ISO) defines three-letter country codes. [Here](https://en.wikipedia.org/wiki/ISO_3166-1) is the current list. Additionally, I introduced two codes: "BLX" to collectively represent Belgium and Luxembourg and "XKK" to represent Kosovo (see https://en.wikipedia.org/wiki/XK_(user_assigned_code)).
 
-## Software
+## Programs
 I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
 
 I also provide the final dataset in two formats: `comcur_2024.dta` and `comcur_2024.txt`
