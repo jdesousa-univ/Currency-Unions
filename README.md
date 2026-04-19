@@ -1,0 +1,43 @@
+# Currency-Unions
+Here is a series of programs to create a bilateral currency union dataset.
+
+- First version: 4th March 2009
+- This version: 4th February 2024
+- Author: [Jose De Sousa](https://sites.google.com/site/josedesousauniv/home)
+
+If you use these programs and dataset in your work, please cite: 
+
+De Sousa, Jose (2012), [The currency union effect on trade is decreasing over time](https://www.sciencedirect.com/science/article/abs/pii/S0165176512003941), _Economics Letters_ 117(3), pp. 917-920. The ungated version is [here](https://drive.google.com/file/d/0B0CvAsG5eVPJb1c4Q3dKeHBZTDg/view?hl=en&pli=1&resourcekey=0-YBYzn1wQ-Mcp2heqGFDgjA).
+
+You'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!                         
+
+- Bibtexm:
+    @article{DESOUSA2012917,
+title = {The currency union effect on trade is decreasing over time},
+journal = {Economics Letters},
+volume = {117},
+number = {3},
+pages = {917-920},
+year = {2012},
+issn = {0165-1765},
+doi = {https://doi.org/10.1016/j.econlet.2012.07.009},
+url = {https://www.sciencedirect.com/science/article/pii/S0165176512003941},
+author = {José {de Sousa}},
+keywords = {Currency unions, Dollarization, Trade, Gravity, Poisson},
+abstract = {Estimating a theoretical gravity model over a sixty-year period, from 1948 to 2009, I found an unexpected trend: the currency union impact on trade is decreasing over time. This result suggests that with trade and financial globalization, currency unions become less and less important for promoting trade.}
+}
+
+
+## Software
+I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do`, for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
+
+## Acknowledgements
+I am indebted to 
+- [Keith Head](https://www.sauder.ubc.ca/people/keith-head) for much helpful advice and insightful discussions in the construction of this file 
+- [Laura Lebastard](https://www.ecb.europa.eu/pub/research/authors/profiles/laura-lebastard.en.html) (a former PhD student now an economist at the European Central Bank) for her help in revising an eralier version of the dataset. 
+- [Antoine Chaney](https://fr.linkedin.com/in/antoine-chaney-3898a2192) for his excellent research assistance in allowing me to update an earlier version of this dataset. 
+- [Yoto Yotov](https://yotoyotov.com/) for encouraging me to keep updating this dataset and for citing my work!
+
+## Disclaimer 
+These data are to the best of my knowledge correct. If you double check them to ensure their accuracy and find errors, I would appreciate it if you would inform me at <jose.de-sousa@u-paris2.fr>. Thank you!
+"# Currency-Unions" 
