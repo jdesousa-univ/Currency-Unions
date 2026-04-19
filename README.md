@@ -1,5 +1,5 @@
 # Currency-Unions
-Here is a series of programs to create a bilateral currency union dataset.
+Here is a series of programs to create a dataset of bilateral currency unions between 235 countries over 76 years, from 1948 to 2023.
 
 - First version: 4th March 2009
 - This version: 4th February 2024
@@ -11,25 +11,17 @@ De Sousa, Jose (2012), [The currency union effect on trade is decreasing over ti
 
 You'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!                         
 
-- Bibtexm:
-    @article{DESOUSA2012917,
-title = {The currency union effect on trade is decreasing over time},
-journal = {Economics Letters},
-volume = {117},
-number = {3},
-pages = {917-920},
-year = {2012},
-issn = {0165-1765},
-doi = {https://doi.org/10.1016/j.econlet.2012.07.009},
-url = {https://www.sciencedirect.com/science/article/pii/S0165176512003941},
-author = {José {de Sousa}},
-keywords = {Currency unions, Dollarization, Trade, Gravity, Poisson},
-abstract = {Estimating a theoretical gravity model over a sixty-year period, from 1948 to 2009, I found an unexpected trend: the currency union impact on trade is decreasing over time. This result suggests that with trade and financial globalization, currency unions become less and less important for promoting trade.}
-}
-
-
 ## Software
-I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do`, for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
+I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
+
+I also provide the final dataset in two formats: `comcur_2024.dta` and `comcur_2024.txt`
+
+Note: you can open the Stata dataset `.dta` with `R` by using the following code:
+```
+install.packages("foreign")
+library(foreign)
+comcurdata <- read.dta("data/comcur_2024.dta")
+```
 
 ## Acknowledgements
 I am indebted to 
@@ -40,4 +32,3 @@ I am indebted to
 
 ## Disclaimer 
 These data are to the best of my knowledge correct. If you double check them to ensure their accuracy and find errors, I would appreciate it if you would inform me at <jose.de-sousa@u-paris2.fr>. Thank you!
-"# Currency-Unions" 
