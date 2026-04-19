@@ -1,34 +1,43 @@
 # Currency-Unions
-Here is a series of programs to create a dataset of bilateral currency unions between 235 countries over 76 years, from 1948 to 2023.
+Here is a series of programs to create a dataset of bilateral currency unions between 235 countries over 78 years, from 1948 to 2025.
 
 - First version: 4th March 2009
-- This version: 4th February 2024
+- This version: 18th April 2026
 - Author: [Jose De Sousa](https://sites.google.com/site/josedesousauniv/home)
 
 If you use these programs and dataset in your work, please cite: 
 
 De Sousa, Jose (2012), [The currency union effect on trade is decreasing over time](https://www.sciencedirect.com/science/article/abs/pii/S0165176512003941), _Economics Letters_ 117(3), pp. 917-920. The ungated version is [here](https://drive.google.com/file/d/0B0CvAsG5eVPJb1c4Q3dKeHBZTDg/view?hl=en&pli=1&resourcekey=0-YBYzn1wQ-Mcp2heqGFDgjA).
 
-You'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!                         
+You'll be joining a group of academics using this dataset: [take a look](https://scholar.google.fr/scholar?oi=bibs&hl=en&cites=3218259387529740408&as_sdt=5). Thank you!
+
+## What's new in 2026
+- Coverage extended from 1948–2023 to **1948–2025** (78 years, 18,330 observations)
+- New currency: **Caribbean Guilder (XCG)**, replacing the Netherlands Antillean guilder in Curaçao and Sint Maarten from March 2025
+- New country–currency assignments: British Virgin Islands, Christmas Island, Cocos (Keeling) Islands, Pitcairn Islands, Puerto Rico, Marshall Islands
+- Corrections: Ecuador and East Timor USD start years
+- Full details in [CHANGELOG.md](CHANGELOG.md)
+
+The 2024 version (1948–2023) is available under the [v2024.0 tag](../../releases/tag/v2024.0) and documented in [README2024.md](README2024.md).
 
 ## Software
-I use Stata to create the data set. Please run the master do-file, called `mastercu_2024.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
+I use Stata to create the data set. Please run the master do-file, called `mastercu_2026.do` for creating a bilateral currency union dataset and executing all of the individual do-files in the appropriate order.
 
-I also provide the final dataset in two formats: `comcur_2024.dta` and `comcur_2024.txt`
+I also provide the final dataset in two formats: `comcur_2026.dta` and `comcur_2026.txt`
 
 Note: you can open the Stata dataset `.dta` with `R` by using the following code:
 ```
 install.packages("foreign")
 library(foreign)
-comcurdata <- read.dta("data/comcur_2024.dta")
+comcurdata <- read.dta("data/comcur_2026.dta")
 ```
 
 ## Acknowledgements
 I am indebted to 
 - [Keith Head](https://www.sauder.ubc.ca/people/keith-head) for much helpful advice and insightful discussions in the construction of this file 
-- [Laura Lebastard](https://www.ecb.europa.eu/pub/research/authors/profiles/laura-lebastard.en.html) (a former PhD student now an economist at the European Central Bank) for her help in revising an eralier version of the dataset. 
+- [Laura Lebastard](https://www.ecb.europa.eu/pub/research/authors/profiles/laura-lebastard.en.html) (a former PhD student now an economist at the European Central Bank) for her help in revising an earlier version of the dataset. 
 - [Antoine Chaney](https://fr.linkedin.com/in/antoine-chaney-3898a2192) for his excellent research assistance in allowing me to update an earlier version of this dataset. 
 - [Yoto Yotov](https://yotoyotov.com/) for encouraging me to keep updating this dataset and for citing my work!
 
 ## Disclaimer 
-These data are to the best of my knowledge correct. If you double check them to ensure their accuracy and find errors, I would appreciate it if you would inform me at <jose.de-sousa@u-paris2.fr>. Thank you!
+These data are to the best of my knowledge correct. If you double check them to ensure their accuracy and find errors, I would appreciate it if you would inform me at <jose.de-sousa@assas-universite.fr>. Thank you!
