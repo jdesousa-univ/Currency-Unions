@@ -25,11 +25,17 @@ I use Stata to create the data set. Please run the master do-file, called `maste
 
 I also provide the final dataset in two formats: `comcur_2026.dta` and `comcur_2026.txt`
 
-Note: you can open the Stata dataset `.dta` with `R` by using the following code:
+Note: you can open the Stata dataset `.dta` with `R` 
 ```
 install.packages("foreign")
 library(foreign)
 comcurdata <- read.dta("data/comcur_2026.dta")
+```
+or `Python`
+
+```
+import pandas as pd
+comcurdata = pd.read_stata("data/comcur_2026.dta")
 ```
 
 ## Acknowledgements
