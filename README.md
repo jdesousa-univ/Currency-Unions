@@ -46,4 +46,4 @@ I am indebted to
 - [Yoto Yotov](https://yotoyotov.com/) for encouraging me to keep updating this dataset and for citing my work!
 
 ## Disclaimer 
-These data are to the best of my knowledge correct. If you double check them to ensure their accuracy and find errors, I would appreciate it if you would inform me at <jose.de-sousa@assas-universite.fr>. Thank you!
+These data are to the best of my knowledge correct. If you double check them to ensure their accuracy and find errors, please inform me at <jose.de-sousa@assas-universite.fr>. Thank you!
